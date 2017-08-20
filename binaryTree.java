@@ -1,3 +1,4 @@
+// PreOrder Tree traveral. 
 class Node{
     Node left, right;
     int key;
@@ -17,7 +18,6 @@ public class binaryTree{
 
     }
     public static void main(String args[]){
-        System.out.println("Hello World");
         binaryTree Tree = new binaryTree();
         Tree.root = new Node(10);
         Tree.root.left = new Node(-1);

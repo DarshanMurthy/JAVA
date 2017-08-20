@@ -14,7 +14,5 @@ public class Test{
         System.out.println("Hello");
         Test test = new Test();
         test.root= new Node(10);
-        
-  
     }
 }
