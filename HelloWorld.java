@@ -15,5 +15,39 @@ class HelloWorld{
     
       test();
       int m = test_node();
+      String arr1= "100";
+      String arr2="9001";
+      char temp1[] = arr1.toCharArray();
+      char temp2[] = arr2.toCharArray();
+
+    ArrayList<Character> list = new ArrayList<Character>();
+      for(char i='a';i<'z';i++){
+          list.add(i);
+      }
+
+    char arry[] ={'a','a','b','m'};
+      for(char i=0;i< arry.length;i++){
+         for(char j=i+1;j< arry.length;j++){
+
+            if(arr[i])
+         }
+      }
+
+  
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
     }
 }

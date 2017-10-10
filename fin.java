@@ -5,8 +5,16 @@ public class fin{
 
     public static void main(String args []){
 
-        Scanner iter = new Scanner(System.in);
-   
+        // Scanner iter = new Scanner(System.in);
+
+        ArrayList<Integer> value = new ArrayList<Integer>();
+        for(int i=0;i<1000;i++){
+            value.add(i);
+        }
+        if(value.contains(8)){
+            System.out.println(value.get(999));
+        }
+        
         
 
        
